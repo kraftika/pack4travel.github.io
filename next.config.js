@@ -3,8 +3,8 @@ const repoName = "pack4travel";
 
 const nextConfig = {
   output: "export",
-  basePath: isProd ? "/pack4travel" : "",
-  assetPrefix: isProd ? "/pack4travel/" : "",
+  basePath: isProd ? "/pack4travel.github.io" : "",
+  assetPrefix: isProd ? "/pack4travel.github.io/" : "",
 };
 
 module.exports = nextConfig;
