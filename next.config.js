@@ -1,5 +1,7 @@
 const isProd = process.env.NODE_ENV === "production";
-const repoName = "pack4travel";
+const repoName = "pack4travel.github.io";
+
+console.log('isProd', isProd)
 
 const nextConfig = {
   output: "export",
